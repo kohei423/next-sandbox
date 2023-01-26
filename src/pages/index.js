@@ -27,12 +27,6 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
   <Layout home>
-    <section className={utilStyle.headingMd}>
-      <p>
-        勉強用Next.jsアプリ
-      </p>
-    </section>
-
     <section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
       <h2>Next.jsについての学びブログ</h2>
       <div className={styles.grid}>
